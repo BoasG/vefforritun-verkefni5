@@ -19,3 +19,60 @@ main {
   max-width: 1500px;
   padding: 20px;
 }
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+p {
+  line-height: 1.25;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25em;
+  background-color: #fff;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+
+  max-width: 29.375em;
+  max-height: 20em;
+
+  margin-bottom: 0.5em;
+
+  word-break: break-all;
+  overflow: auto;
+}
+
+.card__content {
+  display: flex;
+  margin-top: 0.5em;
+}
+
+.card img {
+  width: 100%;
+  padding-right: 1.25em;
+}
+
+.card:last-child {
+  order: -1;
+}
+
+.card ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  font-weight: bold;
+}
+
+.card ul li{
+  padding-right: 1em;
+}
