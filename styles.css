@@ -62,7 +62,7 @@ main {
   padding-right: 1.25em; /*20px*/
 }
 
-.card:last-child {
+.card--first {
   order: -1;
 }
 
