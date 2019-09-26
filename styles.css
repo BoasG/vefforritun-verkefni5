@@ -73,6 +73,6 @@ main {
   font-weight: bold;
 }
 
-.card__list_listitem{
+.card__list__listitem{
   padding-right: 0.5em; /*8px*/
 }
