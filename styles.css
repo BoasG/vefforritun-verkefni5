@@ -48,7 +48,7 @@ main {
 
   margin-bottom: 0.625em; /*10px*/
 
-  word-wrap: break-word;
+  word-break: break-all;
   overflow: auto;
 }
 
